@@ -22,6 +22,14 @@ body{
   border-radius: 8px;
   padding: 16px 32px;
 }
+
+.display-flex{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+
+}
+/* Common shared style section */
 /* banner style section start*/
 .banner-comtain{
   font-family: 'Merriweather', 'serif';
@@ -146,6 +154,78 @@ body{
   color: #F00;
 }
 /* address-time style section end */
+
+/* new offer section style Start */
+
+
+
+
+
+ /* new offer section style end */
+
+.new-offer{
+  max-width: 1320px;
+  width: 83%;
+  height: 600px;
+  margin: 40px auto;
+  margin-bottom: 130px;
+}
+
+.new-offer h2{
+ font-family: Inter;
+  color:  #F00;
+  font-size: 24px;
+  font-weight: 500;
+
+
+}
+ .new-offer h1 {
+  font-size: 48px;
+  font-family: 'Merriweather';
+
+ }
+
+ .part1 .paragraph{
+  max-width:450px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: 'Inter';
+  font-size: 25px;
+  line-height: 32px;
+ }
+   
+ 
+ .new-offer .part2{
+  max-width: 470px;
+  background-color: #ff0000;
+  border-radius: 470px;
+  align-items: center;
+  padding: 1px 12px;
+  margin: auto;
+ }
+ .part2  img{
+  width: 365px;
+  border: 30px solid aliceblue;
+  border-radius: 365px;
+  margin: 10px 0px 10px 0px;
+}
+
+.new-offer .part3 h1 {
+  font-family: 'Inter';
+  font-size: 65px;
+  color: #ff0000;
+  height: 60px;
+
+}
+.new-offer .part3 p{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 25px;
+  line-height: 32px;
+  max-width: 280px;
+}
+
+ 
+
 /* Portfolio section style start */
 #portfolio{
   font-family: 'Inter', 'sans-serif';

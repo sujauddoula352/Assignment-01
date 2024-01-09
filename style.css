@@ -26,10 +26,11 @@ body{
 .display-flex{
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content:space-between;
 
 }
-/* Common shared style section */
+/* Common shared style section end */
+
 /* banner style section start*/
 .banner-comtain{
   font-family: 'Merriweather', 'serif';
@@ -62,6 +63,7 @@ body{
   padding-bottom: 200px;
 }
 /* banner style section End*/
+
 /* Post featured Content container start */
 .Post-featured-container{
   font-family: 'Inter', 'sans-serif';
@@ -93,17 +95,13 @@ body{
   margin:0 auto;
 }
 /* Post featured Content container End */
+
 /* Welcome-section start */
 .Welcome-section{
   font-family: 'Merriweather', 'serif';
   background-image: url('assets/Vectorrr.png');
   background-repeat: no-repeat;
   background-size: auto;
-}
-.Welcome-section{
-  display: flex;
-  align-items: center;
-  justify-content:center;
   margin-top: 170px;
 }
 .Welcome-section .Welcome-banner-container h1{
@@ -182,8 +180,48 @@ body{
  .new-offer h1 {
   font-size: 48px;
   font-family: 'Merriweather';
+ color: #070211;
 
  }
+ /* Holidays Sale section style start */
+
+
+ #holiday-text{
+  text-align: center;
+  max-width: 1320px;
+  margin: 0px 0px 0px 450px
+ }
+
+ #holiday .holiday-content h2{
+  color: #070211;
+  font-size: 24px;
+  max-width: 265px;
+
+
+ }
+ .holiday-content h1{
+ font-size:75px ;
+ color:red ;
+  margin-bottom:0px ;
+
+
+ }
+ .holiday-content h1 span{
+    color:#070211 ;
+
+ }
+ .holiday-content p{
+  max-width: 1070px;
+ font-size:25px;
+ color:rgba(7, 2, 17, 0.60) ;
+ font-weight:500;
+
+ }
+
+ /* Holidays Sale section style end */
+
+
+
 
  .part1 .paragraph{
   max-width:450px;
@@ -260,15 +298,8 @@ body{
   margin-top: 0px;
   margin-bottom:50px;
 }
-#portfolio-images-section .portfolio-images{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-#portfolio-images-section2 .portfolio-images01{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+#portfolio-images-section2{
   padding-bottom: 150px;
 }
 /* Newsletter-section style start */
@@ -325,6 +356,8 @@ body{
   border-radius:0px 50px 50px 0px;
 }
 /* Newsletter-section style end */
+
+
 .footer-section{
   background-color: #070211;
   max-width: 1600px;
@@ -335,9 +368,6 @@ body{
   line-height: 40px;
 }
 #footer-Container-section .footer-heading{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding:80px;
   padding-bottom: 50px;
 }

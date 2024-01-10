@@ -2,7 +2,7 @@
 body{
   background-color:#FFF;
   width: 1600px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 .banner-section{
@@ -96,7 +96,7 @@ body{
 }
 /* Post featured Content container End */
 
-/* Welcome-section start */
+/* Welcome section start */
 .Welcome-section{
   font-family: 'Merriweather', 'serif';
   background-image: url('assets/Vectorrr.png');
@@ -134,8 +134,9 @@ body{
   width: 320px;
   height: 465px;
 }
-/* Welcome-section style end */
-/* address-time style section start */
+/* Welcome section style end */
+
+/* address time style section start */
 .address-time{
   font-family: 'Inter', 'sans-serif';
   background-color: rgba(233, 40, 40, 0.1);
@@ -152,6 +153,7 @@ body{
   color: #F00;
 }
 /* address-time style section end */
+
 
 /* new offer section style Start */
 
@@ -352,7 +354,7 @@ body{
   margin: 0 150px 0px 0px;
   padding: 20px;
 }
-.Subscribe .btn{
+.Subscribe .btn{s
   border-radius:0px 50px 50px 0px;
 }
 /* Newsletter-section style end */
